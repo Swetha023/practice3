@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    font-family: 'Mooli', sans-serif;
+    height: 5000px;
+}
+.div1{
+    background-image: url(images/yoga-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 760px;
+}
+.div1::before{
+    position: absolute;
+    top: 0;
+    margin: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    padding-left: 250px;
+    padding-top: 85px;
+    padding-bottom: 20px;
+}
+.p1{
+    padding-left: 150px;
+    text-align: center;
+    width: 40%;
+}
+.p2{
+    margin-top: -10px;
+    width: 20%;
+}
+.p3{
+    margin-left: 20px;
+    width: 40%;
+}
+hr{
+    border-top: 1px;
+    margin-left: 300px;
+    margin-right: 200px;
+}
+.h2{
+    margin-top: 150px;
+    text-align: center;
+}
+.para{
+    padding-top: 25px;
+    text-align: center;
+}
+.main2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+}
+.click{
+    margin-top: 5px;
+    color: white;
+    background-color: #e74292;
+    font-weight: 300;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    cursor: pointer;
+}
+.div2{
+    color: #e74292;
+    margin-top: 200px;
+    text-align: center;
+    height: 650px;
+}
+.natural{
+   color: #e74292;
+}
+.philo{
+    color: grey;
+    padding-top: 25px;
+}
+
+.icons-para{
+    align-items: center;
+    margin-top: 90px;
+    display: flex;
+    width: 100%;
+}
+.icon-1{
+    width: 33%;
+}
+.icon-2{
+    width: 33%;
+}
+.icon-3{
+    width: 33%;
+}
+.i-1,.i-2,.i-3{
+   font-size: 50px;
+}
+.para-1,.para-2,.para-3{
+    padding-top: 20px;
+    color: grey;
+}
+.choose,.workout,.challenge{
+    padding-top: 30px;
+    color: black;
+}
+.div3{
+    color: black;
+    width: 100%;
+    display: flex;
+    height: 500px;
+}
+.yoga-class{
+    margin-top: 40px;
+    width: 65%;
+    padding-left: 420px;
+}
+.head-3{
+    color: #e74292;
+    font: bold;
+}
+.clr{
+    color: #e74292;
+}
+.class-image{
+    object-fit: contain;
+}
+.p-1{
+    padding-top: 15px;
+    line-height: 20px;
+}
+.p-div{
+   padding-top: 35px;
+   line-height: 40px;    
+}
+.last-line{
+    padding-top: 15px;
+    line-height: 20px;
+}
+
